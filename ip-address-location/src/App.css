@@ -1,0 +1,61 @@
+th, td {
+  border-right: 1px solid hsl(0, 0%, 59%);
+  padding: 0px 10px 0px 10px;
+  text-align: left;
+}
+
+th {
+  padding-top: 10px;
+  font-size: small;
+  color: hsl(0, 0%, 59%);
+  font-weight: 500;
+  transform: translateY(2px);
+}
+
+td {
+  padding-bottom: 10px;
+  font-size: larger;
+  color: hsl(0, 0%, 17%);
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+#top-half {
+  position: relative;
+  color: white;
+}
+
+#centered {
+  position: absolute;
+  font-size: xx-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#send-text {
+  width: 150%;
+  padding: 5%;
+  transform: translateX(-20%);
+  border-radius: 25px;
+}
+
+#banner {
+  position: absolute;
+  background-color: white;
+  transform: translate(50%, 150%);
+  border-radius: 25px;
+  padding: 5px;
+  z-index: 2;
+}
+
+.leaflet-container {
+  height: 29rem;
+  transform: translateY(-5px);
+  z-index: 0;
+}
